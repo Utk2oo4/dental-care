@@ -581,10 +581,10 @@ export default function App() {
             </motion.div>
 
             <div>
-              <p className="text-medical-blue font-bold uppercase tracking-widest mb-4">About Elite Dental</p>
+              <p className="text-medical-blue font-bold uppercase tracking-widest mb-4">About Dental Care</p>
               <h2 className="text-4xl font-bold text-medical-navy mb-6 leading-tight">We Are Dedicated To Your Oral Health Excellence</h2>
               <p className="text-slate-600 mb-8 text-lg leading-relaxed">
-                At Elite Dental, we believe that a healthy smile is the foundation of confidence. Our clinic combines years of clinical expertise with a compassionate approach to patient care. We utilize cutting-edge dental technology to provide treatments that are not only effective but also comfortable and minimally invasive.
+                At Dental Care, we believe that a healthy smile is the foundation of confidence. Our clinic combines years of clinical expertise with a compassionate approach to patient care. We utilize cutting-edge dental technology to provide treatments that are not only effective but also comfortable and minimally invasive.
               </p>
               <div className="space-y-4 mb-8">
                 {[
@@ -1052,9 +1052,13 @@ export default function App() {
             <div>
               <a href="#home" className="flex items-center gap-2 mb-6">
                 <div className="w-10 h-10 bg-medical-blue rounded-xl flex items-center justify-center">
-                  <Sparkles className="text-white w-6 h-6" />
+                  <img
+                src="/images/dr-logo-new.png"
+                alt="DentalCare Logo"
+                className="w-full h-full object-contain"
+              />
                 </div>
-                <span className="text-2xl font-bold text-white tracking-tight">Elite<span className="text-medical-blue">Dental</span></span>
+                <span className="text-2xl font-bold text-white tracking-tight">Dental<span className="text-medical-blue">Care</span></span>
               </a>
               <p className="text-blue-100/60 leading-relaxed mb-8">
                 Providing premium dental care with advanced technology and a compassionate touch. Your smile is our greatest achievement.
