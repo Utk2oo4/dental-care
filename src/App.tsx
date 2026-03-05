@@ -378,7 +378,7 @@ export default function App() {
         <div className="flex items-center justify-center gap-2">
           <Activity className="w-4 h-4 animate-pulse text-medical-blue" />
           <span>Emergency Dental Care Available – Call Now:</span>
-          <a href="tel:+919876543210" className="hover:text-medical-blue transition-colors font-bold">+91 98765 43210</a>
+          <a href="tel:+919876543210" className="hover:text-medical-blue transition-colors font-bold">+91 1122334455</a>
         </div>
       </div>
 
@@ -971,7 +971,7 @@ export default function App() {
                   </div>
                   <div>
                     <h4 className="font-bold text-medical-navy mb-1">Phone Number</h4>
-                    <p className="text-slate-600">+91 98765 43210</p>
+                    <p className="text-slate-600">+91 1122334455</p>
                     <p className="text-slate-600">+91 22 1234 5678</p>
                   </div>
                 </div>
@@ -1015,7 +1015,7 @@ export default function App() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label className="text-sm font-bold text-slate-700">Phone Number</label>
-                    <input type="tel" placeholder="+91 98765 43210" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-medical-blue focus:ring-2 focus:ring-medical-blue/20 outline-none transition-all" />
+                    <input type="tel" placeholder="+91 1122334455" className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-medical-blue focus:ring-2 focus:ring-medical-blue/20 outline-none transition-all" />
                   </div>
                   <div className="space-y-2">
                     <label className="text-sm font-bold text-slate-700">Select Service</label>
@@ -1112,7 +1112,7 @@ export default function App() {
               </ul>
               <div className="mt-8 p-4 bg-white/5 rounded-2xl border border-white/10">
                 <p className="text-xs font-bold text-blue-300 uppercase tracking-widest mb-2">Emergency Line</p>
-                <p className="text-xl font-bold">+91 98765 43210</p>
+                <p className="text-xl font-bold">+91 1122334455</p>
               </div>
             </div>
           </div>
